@@ -1,0 +1,74 @@
+{
+  "pages": [
+    "pages/products/main",
+    "pages/hospitalInfo/main",
+    "pages/baseEvaluation/main",
+    "pages/someDayOrder/main",
+    "pages/dietEvaluation/main",
+    "pages/orders/main",
+    "pages/rulerTest/main",
+    "pages/diseaseType/main",
+    "pages/thirdTip/main",
+    "pages/firstTip/main",
+    "pages/orderSubmit/main",
+    "pages/reports/main",
+    "pages/reportDetail/main",
+    "pages/orderDetail/main",
+    "pages/home/main",
+    "pages/personalInfo/main",
+    "pages/guide/main",
+    "pages/index/main",
+    "pages/secondTip/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "R+ 营养师",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#999",
+    "backgroundColor": "#fafafa",
+    "selectedColor": "#00D0AA",
+    "borderStyle": "white",
+
+    "list": [{
+      "text": "首页",
+      "pagePath": "pages/home/main",
+      "iconPath": "static/tabs/ic_tab_home_default.png",
+      "selectedIconPath": "static/tabs/ic_tab_home_active.png"
+    }, {
+      "text": "订单",
+      "pagePath": "pages/orders/main",
+      "iconPath": "static/tabs/ic_tab_order_default.png",
+      "selectedIconPath": "static/tabs/ic_tab_order_active.png"
+    },
+      {
+        "text": "报告",
+        "pagePath": "pages/reports/main",
+        "iconPath": "static/tabs/ic_tab_order_default.png",
+        "selectedIconPath": "static/tabs/ic_tab_order_active.png"
+      }
+    ],
+
+    "items": [
+      {
+      "name": "首页",
+      "pagePath": "pages/home/main",
+      "icon": "static/tabs/ic_tab_home_default.png",
+      "activeIcon": "static/tabs/ic_tab_home_active.png"
+    }, {
+      "name": "订单",
+      "pagePath": "pages/orders/main",
+      "icon": "static/tabs/ic_tab_order_default.png",
+      "activeIcon": "static/tabs/ic_tab_order_active.png"
+    },{
+        "name": "报告",
+        "pagePath": "pages/reports/main",
+        "icon": "static/tabs/ic_tab_report_default.png",
+        "activeIcon": "static/tabs/ic_tab_report_active.png"
+      }],
+
+    "position": "bottom"
+  }
+}
